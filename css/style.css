@@ -1,0 +1,36 @@
+/* Map Section */
+#map {
+    width: 70%;
+    height: 600px;
+    background-color: lightgray;
+    margin: 40px auto; /* Adjusted margin for space */
+    border: 1px solid #000000; /* Add a border with a subtle color */
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative; /* Relative positioning for child elements */
+    z-index: 1; /* Set z-index to be behind the header */
+
+}
+
+
+
+.legend {
+    padding: 6px 8px;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    }
+    .legend div {
+    width: 30px;
+    height: 15px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+    }
+    div.legend.leaflet-control br {
+    clear: both;
+    }
+
+    
+
+
